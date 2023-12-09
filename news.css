@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color: #222;
+}
+
+.container{
+    width: 100%;
+}
+.news-section{
+    width: 85%;
+    margin: 20px auto;
+}
+.news-section .title{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+.news-section .title h2{
+    font-size: 40px;
+    color: white;
+    text-transform: uppercase;
+}
+.news-section .title p{
+    font-size: 18px;
+    color: white;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    margin: 25px auto;
+}
+.cards .card{
+    width: 100%;
+    position: relative;
+}
+.image-section img{
+    width: 100%;
+    height: auto;
+}
+.content{
+    padding: 15px 20px;
+}
+.content h4{
+    font-size: 24px;
+    color: white;
+    font-weight: 500;
+}
+.content p{
+    color: white;
+    font-size: 15px
+}
+.content a{
+    text-decoration: none;
+    color: white;
+    margin-top: 12px;
+    display: inline-block;
+    background-color: black;
+    padding: 8px 15px;
+}
